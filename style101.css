@@ -1,0 +1,121 @@
+header{
+    background-color: #061957;
+    width: 100%;
+    
+  }
+  .topnav {
+    /*background-color:#000000f1;*/
+    overflow:hidden;
+    width: 100%;
+    margin-right: auto;
+    /*background-color: #061957;*/
+    border-radius: 18px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:rgb(224, 224, 224);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: rgba(255, 255, 255, 0.651);
+    font-size: 17px;
+    border-radius: 18px;
+  } 
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #03030875;
+    color: rgb(236, 236, 243);
+    border-radius: 18px;
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#77bedf;
+    color: black;
+    margin:0;;
+  }
+  footer{
+    background-color:#061957;
+    padding:0;
+    margin:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin:0;
+  
+  }
+  button{
+    text-align: end;
+  
+  }
+  footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  h1{
+    text-align: left;
+    color: antiquewhite;
+  }
+  h2{
+    color: antiquewhite;
+  }
+  p1{
+    color: antiquewhite;
+  }
+  p2{
+    color: antiquewhite;
+  }
+  .contact-inputs{
+    width: 400px;
+    height: 25px;
+  padding-left: 25px;
+  font-weight: 50px;
+  font-weight: 500;
+  color:antiquewhite;
+  border-radius: 5opx;
+  align-items: center;
+  background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: none ;
+  border-bottom: 1px solid aqua;
+  border-left: none;
+  border-right: none;
+  background-color: none;
+  }
+  .contact-left button{
+    display:flex;
+    align-items: center;
+  }
+  body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+  }
+  th, td {
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color:antiquewhite;
+}
+th {
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    color:antiquewhite;
+}
+.name{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}

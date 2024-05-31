@@ -1,0 +1,103 @@
+header{
+    /*background-color: #061957;*/
+    width: 100%;
+    
+  }
+  .topnav {
+    /*background-color:#000000f1;*/
+    overflow:hidden;
+    width: 100%;
+    margin-right: auto;
+    /*background-color: #061957;*/
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color:rgb(224, 224, 224);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: rgba(255, 255, 255, 0.651);
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #03030875;
+    color: rgb(236, 236, 243);
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:#77bedf;
+    color: black;
+    margin:0;
+  }
+  footer{
+    background-color:#061957;
+    padding:0;
+    margin:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin:0;
+    background-color: #061957;
+  
+  }
+  main{
+    width: 100%;
+    height: 250px;
+  }
+  button{
+    text-align: end;
+
+  
+  }
+  footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  h1{
+    text-align: left;
+  }
+  .body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("img 7.jpg");
+    background-position: center;
+    background-size: cover;
+    width:900px;
+  }
+  .btnn{
+    width: 240px;
+    height: 40px;
+    background:aqua;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+    transition: .4s ease;
+}
+
+.btnn:hover{
+    background: #fff;
+    color:aqua;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+  

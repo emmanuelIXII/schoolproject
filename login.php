@@ -121,7 +121,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
   <title>Namalundu secondary</title>
   <link rel="stylesheet" href="Namz.css">
   <div class="topnav">
-    <a class="active" href="Namalundu.html">Home</a>
+    <a class="active" href="index.html">Home</a>
     <a href="contact.html">Contact us</a>
     <a href="about.html">About us</a>
     <a href="login.php">Login</a>
